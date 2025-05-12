@@ -18,6 +18,9 @@ target/
 *.iml
 *.ipr
 
+### Environment Variables ###
+.env
+
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
@@ -30,3 +33,7 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### macOS ###
+.DS_Store
+**/.DS_Store
