@@ -4,8 +4,3 @@ services:
     runtime: docker
     buildCommand: docker build -t spring-websocket-chat-app .
     startCommand: docker run -p $PORT:8080 spring-websocket-chat-app
-    envVars:
-      - key: MONGODB_URI
-        value: mongodb+srv://your-mongodb-atlas-connection-string
-      - key: PORT
-        value: 8080
