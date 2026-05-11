@@ -20,15 +20,20 @@ A professional real-time one-to-one chat application built with Spring Boot, Web
 ## Local Development
 
 1. Clone the repository
-2. Start MongoDB:
+2. Copy `.env.example` to `.env` and fill in your values:
+   ```bash
+   cp .env.example .env
+   ```
+   Edit `.env` with your MongoDB Atlas connection string.
+3. Start MongoDB:
    ```bash
    docker-compose up -d
    ```
-3. Run the application:
+4. Run the application:
    ```bash
    mvn spring-boot:run
    ```
-4. Open http://localhost:8080
+5. Open http://localhost:8080
 
 ## Deployment
 
@@ -46,6 +51,7 @@ This application is configured for deployment on Render.
 2. Use the `render.yaml` configuration
 3. Set environment variables:
    - `MONGODB_URI`: Your MongoDB Atlas connection string
+   - `MONGODB_DATABASE`: Database name (for example `chat_app`) if your URI does not include `/database`
    - `PORT`: 8080
 
 ## CI/CD

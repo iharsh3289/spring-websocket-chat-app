@@ -2,5 +2,6 @@ spring:
   data:
     mongodb:
       uri: ${MONGODB_URI:mongodb://localhost:27017/chat_app}
+      database: ${MONGODB_DATABASE:chat_app}
 server:
   port: ${PORT:8080}
