@@ -1,5 +1,6 @@
 package com.websocketchat.chat;
 
+// REST controller for chat operations
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.messaging.handler.annotation.MessageMapping;
