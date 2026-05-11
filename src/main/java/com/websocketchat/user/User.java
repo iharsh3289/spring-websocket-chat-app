@@ -1,5 +1,6 @@
 package com.websocketchat.user;
 
+// User entity for chat application
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.data.annotation.Id;
