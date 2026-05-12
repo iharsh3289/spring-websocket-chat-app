@@ -2,6 +2,9 @@
 
 A professional real-time one-to-one chat application built with Spring Boot, WebSocket, and MongoDB.
 
+**Live Demo:** https://spring-websocket-chat-app-nj54.onrender.com
+**Repository:** https://github.com/iharsh3289/spring-websocket-chat-app
+
 ## Features
 
 - Real-time messaging using WebSocket
